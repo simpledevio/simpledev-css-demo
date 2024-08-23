@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 50px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 11;
+  background-color: #fff;
+  border-bottom: solid 1px #0f172a1a;
+}
+
+.grid {
+  gap: 20px 40px;
+}
+
+@media (max-width: 768px) {
+  .order-1 {
+    order: -1;
+  }
+}
+
+.container {
+  /* max-width: 1320px; */
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: var(--darkest-bg);
+  }
+}
