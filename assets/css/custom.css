@@ -1,13 +1,40 @@
-.footer {
-  margin-top: 50px;
+/* custom.css */
+
+/* SMOOTH SCROLLING */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
+/* STICKY NAVBAR */
 .navbar {
   position: sticky;
   top: 0px;
   z-index: 11;
   background-color: #fff;
   border-bottom: solid 1px #0f172a1a;
+}
+
+/* CUSTOM CONTAINER WIDTH */
+.container {
+  /* max-width: 1320px; */
+}
+
+/* ROUNDED CORNERS */
+.button,
+.button-floating,
+.button-outline,
+button,
+input,
+textarea,
+details,
+.code {
+  border-radius: .375rem;
+}
+
+.footer {
+  margin-top: 50px;
 }
 
 .grid {
@@ -18,10 +45,6 @@
   .order-1 {
     order: -1;
   }
-}
-
-.container {
-  /* max-width: 1320px; */
 }
 
 @media (prefers-color-scheme: dark) {
