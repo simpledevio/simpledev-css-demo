@@ -1,10 +1,8 @@
 /* custom.css */
 
-/* SMOOTH SCROLLING */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
+:root {
+  --scroll-behavior: auto;
+  --container-width: 1320px;
 }
 
 /* STICKY NAVBAR */
@@ -14,23 +12,6 @@
   z-index: 11;
   background-color: #fff;
   border-bottom: solid 1px #0f172a1a;
-}
-
-/* CUSTOM CONTAINER WIDTH */
-.container {
-  /* max-width: 1320px; */
-}
-
-/* ROUNDED CORNERS */
-.button,
-.button-floating,
-.button-outline,
-button,
-input,
-textarea,
-details,
-.code {
-  border-radius: .375rem;
 }
 
 .footer {
